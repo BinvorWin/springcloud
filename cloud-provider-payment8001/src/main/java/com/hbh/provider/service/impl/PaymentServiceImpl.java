@@ -3,9 +3,9 @@ package com.hbh.provider.service.impl;
 import com.hbh.commom.entity.Payment;
 import com.hbh.provider.dao.PaymentDao;
 import com.hbh.provider.service.PaymentService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 
 /**
  * Author:Binvor
@@ -14,7 +14,7 @@ import javax.annotation.Resource;
  */
 @Service
 public class PaymentServiceImpl implements PaymentService {
-    @Resource
+    @Autowired
     private PaymentDao paymentDao;
 
     @Override

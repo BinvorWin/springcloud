@@ -5,10 +5,10 @@
     <artifactId>springcloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>eureka-server</module>
         <module>cloud-provider-payment8001</module>
         <module>cloud-consumer-order80</module>
         <module>cloud-api-commons</module>
+        <module>cloud-eureka</module>
     </modules>
     <name>springcloud</name>
     <description>springcloud</description>
